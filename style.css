@@ -1,0 +1,142 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-section,
+.second-section,
+.third-section,
+.fourth-section {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.first-section {
+    flex-direction: column;
+    
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 400px;
+    margin: 0;
+}
+
+.fourth-section {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.email-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sign-up {
+    width: 100px;
+    height: 35px;
+    padding: 2px;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+}
+.sign-up.bottom {
+    border: 2px solid white;
+    
+}
+
+.action * {
+    margin: 0;
+}
+
+h4 {
+    
+}
+
+.footer {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 10px;
+    height: 50px;  
+    justify-content: center;
+    align-items: center; 
+}
+
+.thor {
+    width: 400px;
+    text-align: right;
+    margin: 0;
+}
+
+.thumbnails {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.thumbnails * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rounded-images {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-image {
+    height: 200px;
+    width: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
